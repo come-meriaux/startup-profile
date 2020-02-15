@@ -1,0 +1,142 @@
+/* Colors and fonts */
+
+ body { 
+  background: #183059;
+  color: #16425B;
+  font-family: 'Playfair Display', Roboto;
+  font-size: 20px;
+  text-justify: justify;
+  text-align: justify-all;
+ }
+
+h1, h2 { 
+  font-family: 'Roboto', sans-serif;;
+} 
+  h1 { 
+    color:  #F03A47;
+    font-weight: 500;
+    letter-spacing: 20px;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-justify: center;
+    margin: 50px;
+    padding: 20px;
+    text-align: center
+
+ }
+
+ h2 {
+  color: #F3A712;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 24px;
+    text-transform:uppercase;
+    text-justify: justify;
+} 
+
+a { 
+  text-decoration: none;
+  color:#F6F4F3;
+  font-weight: bold;
+} 
+
+a:hover { 
+  color: #F03A47
+  }
+
+#first{ 
+  padding: 10px;
+  margin: 50px;
+  width: 450px;
+  border-radius: 50%;
+  }
+
+.banner {
+  padding: 50px 0px
+  }
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+.card-white { 
+      background: white;
+      padding: 30px;
+      margin: 20px;
+      box-shadow: 0px 5px 15px #F03A47;
+      border-radius: 7px;
+      text-justify: justify;
+
+}
+
+#incubateur { text-align: center;
+      background: #183059;
+      border-radius: 30px;
+      padding: 8px;
+      margin: 40px;
+      width: 200px;
+      color: #F6F4F3;
+}
+
+#media {
+      background: #183059;
+      border-radius: 20px;
+      padding: 10px;
+      margin: 50px;
+      width: 250px;
+      color: #F6F4F3; 
+}
+
+@media (max-width: 500px) {
+  h1{
+    letter-spacing: 15px;
+    font-size: 30px;}
+}
+
+@media (max-width: 500px) {
+  body{
+    font-size: 12px;;
+    }
+}
+
+@media (max-width: 500px) {
+  #media {
+    width: 300px;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 760px) {
+  #media {
+    width: 500px;
+    border-radius: 20px; }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 760px) {
+  #media{
+    padding: 10px;
+    width: 100px;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 760px) {
+  #first{
+    padding: 10px;
+    margin: 10px;
+    width: 280px;;
+  }
+}
